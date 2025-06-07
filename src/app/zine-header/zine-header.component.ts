@@ -1,0 +1,11 @@
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-zine-header',
+  imports: [],
+  templateUrl: './zine-header.component.html',
+  styleUrl: './zine-header.component.css'
+})
+export class ZineHeaderComponent {
+
+}

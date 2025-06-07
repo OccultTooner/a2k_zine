@@ -1,124 +1,42 @@
-<!-- Add your content of header -->
-<header class="">
-  <div class="navbar navbar-default visible-xs">
-    <!-- <button type="button" class="navbar-toggle collapsed">
-      <span class="sr-only">Toggle navigation</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button> -->
-    <a class="site-brand" href="./index.html" title=""> BAD MOVIES RANKED </a>
-    <p>
-      Rank of all the bad movies that has been watched on the anxiety island.
-      The rank is from best bad movie to worse bad movie
-    </p>
-  </div>
 
-  <nav class="sidebar">
-    <div class="navbar-collapse" id="navbar-collapse">
-      <div class="site-header hidden-xs">
-        <a class="site-brand" href="./index.html" title="">
-          BAD MOVIES RANKED
-        </a>
-        <p>
-          Rank of all the bad movies that has been watched on the anxiety
-          island. The rank is from best bad movie to worse bad movie
-        </p>
-      </div>
-      <!-- <nav class="nav-footer">
-        <p class="nav-footer-social-buttons">
-          <a
-            class="fa-icon"
-            href="https://www.instagram.com/"
-            title=""
-            target="_blank"
-          >
-            <i class="fa fa-instagram"></i>
-          </a>
-          <a
-            class="fa-icon"
-            href="https://twitter.com/"
-            title=""
-            target="_blank"
-          >
-            <i class="fa fa-twitter"></i>
-          </a>
-        </p>
-        <p>© OccultTooner</p>
-      </nav> -->
-      <a (click)="changePage('home')" title="">Movie List</a>
-      <a (click)="changePage('best')" title="">Top 10 Best</a>
-      <a (click)="changePage('worse')" title="">Top 10 worse</a>
-      <!-- <ul class="nav">
-        <li><a (click)="changePage('home')" title="">Movie List</a></li>
-        <li><a (click)="changePage('best')" title="">Top 10 Best</a></li>
-        <li><a (click)="changePage('worse')" title="">Top 10 worse</a></li>
-      </ul> -->
-    </div>
-  </nav>
-</header>
 
-<main class="" id="main-collapse">
-  <!-- Add your site or app content here -->
-  <div *ngIf="selectedPage === 'home'" class="hero-full-wrapper">
-    <div class="grid">
-      <div class="grid-item" *ngFor="let item of movieList; index as i">
-        <img class="img-responsive" alt="" src="{{ item.movieImage }}" />
-        <a
-          href="{{ item.movieDescription }}"
-          target="_blank"
-          class="project-description"
-        >
-          <div class="project-text-holder">
-            <div class="project-text-inner">
-              <h3>{{ totalTasks - i }}) {{ item.movieTitle }}</h3>
-              <p>Discover more</p>
+
+  <!-- search box -->
+    <!-- <div class="tm-hero d-flex justify-content-center align-items-center" data-parallax="scroll" data-image-src="img/hero.jpg">
+        <form class="d-flex tm-search-form">
+            <input class="form-control tm-search-input" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success tm-search-btn" type="submit">
+                <i class="fas fa-search"></i>
+            </button>
+        </form>
+    </div> -->
+
+    <div class="container-fluid tm-container-content tm-mt-60">
+        <div class="row mb-4">
+            <h2 class="col-6 tm-text-primary">
+                ZINES
+            </h2>
+
+            <!-- <div class="col-6 d-flex justify-content-end align-items-center">
+                <form action="" class="tm-text-primary">
+                    Page <input type="text" value="1" size="1" class="tm-input-paging tm-text-primary"> of 200
+                </form>
+            </div> -->
+        </div>
+
+        <div class="row tm-mb-90 tm-gallery">
+        	<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5" *ngFor="let item of zineList; index as i">
+                <figure class="effect-ming tm-video-item">
+                    <img src="{{item.coverImage}}" alt="Image" class="img-fluid">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>{{item.zineTitle}}</h2>
+                        <a (click)="openPdf(item.id)"></a>
+                    </figcaption>
+                </figure>
+                <div class="d-flex justify-content-between tm-text-gray">
+                    <span class="tm-text-gray-light">{{item.releaseDate}}</span>
+                </div>
             </div>
-          </div>
-        </a>
-      </div>
-    </div>
-  </div>
+        </div>
 
-  <!-- Add your site or app content here -->
-  <div *ngIf="selectedPage === 'best'" class="hero-full-wrapper">
-    <div class="grid">
-      <div class="grid-item" *ngFor="let item of top10Best; index as i">
-        <img class="img-responsive" alt="" src="{{ item.movieImage }}" />
-        <a
-          href="{{ item.movieDescription }}"
-          target="_blank"
-          class="project-description"
-        >
-          <div class="project-text-holder">
-            <div class="project-text-inner">
-              <h3>{{ 10 - i }}) {{ item.movieTitle }}</h3>
-              <p>Discover more</p>
-            </div>
-          </div>
-        </a>
-      </div>
-    </div>
-  </div>
-
-  <!-- Add your site or app content here -->
-  <div *ngIf="selectedPage === 'worse'" class="hero-full-wrapper">
-    <div class="grid">
-      <div class="grid-item" *ngFor="let item of top10Worse; index as i">
-        <img class="img-responsive" alt="" src="{{ item.movieImage }}" />
-        <a
-          href="{{ item.movieDescription }}"
-          target="_blank"
-          class="project-description"
-        >
-          <div class="project-text-holder">
-            <div class="project-text-inner">
-              <h3>{{ 10 - i }}) {{ item.movieTitle }}</h3>
-              <p>Discover more</p>
-            </div>
-          </div>
-        </a>
-      </div>
-    </div>
-  </div>
-</main>
+    </div> <!-- container-fluid, tm-container-content -->

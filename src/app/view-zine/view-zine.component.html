@@ -1,0 +1,12 @@
+<div class="container-fluid tm-container-content tm-mt-60 centerItem">
+  <div class="row tm-mb-90 tm-gallery" >
+    <div
+      class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mb-5"
+      *ngFor="let item of selectedZine.pages; index as i"
+    >
+      <figure>
+        <img src="{{ item }}" alt="Image" class="img-fluid" />
+      </figure>
+    </div>
+  </div>
+</div>
