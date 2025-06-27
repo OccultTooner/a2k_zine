@@ -6,12 +6,15 @@ import { ViewZineComponent } from './view-zine/view-zine.component';
 
 const routes: Routes = [
   { path: '', component: MainPageComponent },
-  { path: 'view/:id', component: ViewZineComponent },
+  { path: 'view/:id', component: ViewZineComponent},
   { path: '**', component: MainPageComponent, redirectTo:'', pathMatch: 'full' }
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, {
+      scrollPositionRestoration: 'enabled', // Add options right here
+      useHash: true, //fixing
+    })],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
