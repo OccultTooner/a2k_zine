@@ -8,4 +8,6 @@ import { Component } from '@angular/core';
 })
 export class ZineHeaderComponent {
 
+  zineHeader = '~../../../../assets/images/A2K_Banner.png'
+
 }
