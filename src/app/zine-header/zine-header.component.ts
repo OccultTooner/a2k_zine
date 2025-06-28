@@ -8,7 +8,4 @@ import { ZineListFull } from '../List/zine_list';
   styleUrl: './zine-header.component.css',
 })
 export class ZineHeaderComponent {
-
-  zineHeader = '~../../../../assets/images/A2K_Banner.png'
-
 }

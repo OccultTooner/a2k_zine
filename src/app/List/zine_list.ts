@@ -6,7 +6,7 @@ export const ZineListFull = [
     zineDescription:
       'First issue of the A2K Magazine, a collection of comics by different creators around the web. Please leave a comment if you would be interested in more issues in the future.',
     releaseDate: 'Aug 11, 2022',
-    pdf_file: '~../../assets/zinespdf/v_1/a2kMagazine_v1i1_allPages.pdf',
+    pdf_file: 'assets/zinespdf/v_1/a2kMagazine_v1i1_allPages.pdf',
     pages: [
       '~../../assets/zinespdf/v_1/a2kMagazine_v1i1_allPages_1.png',
       '~../../assets/zinespdf/v_1/a2kMagazine_v1i1_allPages_2.png',
@@ -43,7 +43,7 @@ export const ZineListFull = [
     zineDescription:
       'Second issue of the A2K Magazine, a collection of comics by different creators around the web.',
     releaseDate: 'Sep 13, 2022',
-    pdf_file: '',
+    pdf_file: 'assets/zinespdf/v_2/a2kMagazineissue2_pages.pdf',
     pages: [
       '~../../assets/zinespdf/v_2/a2kMagazineissue2_pages_1.png',
       '~../../assets/zinespdf/v_2/a2kMagazineissue2_pages_2.png',
@@ -80,7 +80,7 @@ export const ZineListFull = [
     zineDescription:
       'Third issue of the A2K Magazine, a collection of comics by different creators around the web.',
     releaseDate: 'Oct 18, 2022',
-    pdf_file: '',
+    pdf_file: 'assets/zinespdf/v_3/a2kcityMagazine3_pages.pdf',
     pages: [
       '~../../assets/zinespdf/v_3/a2kcityMagazine3_pages_1.png',
       '~../../assets/zinespdf/v_3/a2kcityMagazine3_pages_2.png',
@@ -123,7 +123,7 @@ export const ZineListFull = [
     zineDescription:
       'Forth issue of the A2K Magazine, a collection of comics by different creators around the web.',
     releaseDate: 'Feb 16, 2023',
-    pdf_file: '',
+    pdf_file: 'assets/zinespdf/v_4/a2kcityzine4_allPages.pdf',
     pages: [
       '~../../assets/zinespdf/v_4/a2kcityzine4_allPages_1.png',
       '~../../assets/zinespdf/v_4/a2kcityzine4_allPages_2.png',
@@ -158,7 +158,7 @@ export const ZineListFull = [
     zineDescription:
       'Fifth issue of the A2K Magazine, a collection of comics by different creators around the web.',
     releaseDate: 'Apr 17, 2023',
-    pdf_file: '',
+    pdf_file: 'assets/zinespdf/v_5/a2kcityMagazine5_allPages.pdf',
     pages: [
       '~../../assets/zinespdf/v_5/a2kcityMagazine5_allPages_1.png',
       '~../../assets/zinespdf/v_5/a2kcityMagazine5_allPages_2.png',
@@ -194,7 +194,7 @@ export const ZineListFull = [
     zineDescription:
       'Sixth issue of the A2K Magazine, a collection of comics by different creators around the web. Please leave a comment if you would be interested in more issues in the future.',
     releaseDate: 'Jun 18, 2023',
-    pdf_file: '',
+    pdf_file: 'assets/zinespdf/v_6/a2kcityMagazine6_pages.pdf',
     pages: [
       '~../../assets/zinespdf/v_6/a2kcityMagazine6_pages_1.png',
       '~../../assets/zinespdf/v_6/a2kcityMagazine6_pages_2.png',
@@ -223,7 +223,7 @@ export const ZineListFull = [
     zineDescription:
       'Seventh issue of the A2K Magazine, a collection of comics by different creators around the web. Please leave a comment if you would be interested in more issues in the future.',
     releaseDate: 'Aug 17, 2023',
-    pdf_file: '',
+    pdf_file: 'assets/zinespdf/v_7/a2kcityMagazine7_pages.pdf',
     pages: [
       '~../../assets/zinespdf/v_7/a2kcityMagazine7_pages_1.png',
       '~../../assets/zinespdf/v_7/a2kcityMagazine7_pages_2.png',
@@ -259,7 +259,7 @@ export const ZineListFull = [
     zineDescription:
       'Eight issue of the A2K Magazine, a collection of comics by different creators around the web. Please leave a comment if you would be interested in more issues in the future.',
     releaseDate: 'Oct 20, 2023',
-    pdf_file: '',
+    pdf_file: 'assets/zinespdf/v_8/a2kcityMagazine8_pages.pdf',
     pages: [
       '~../../assets/zinespdf/v_8/a2kcityMagazine8_pages_1.png',
       '~../../assets/zinespdf/v_8/a2kcityMagazine8_pages_2.png',
@@ -284,7 +284,7 @@ export const ZineListFull = [
     zineDescription:
       'Ninth issue of the A2K Magazine, a collection of comics by different creators around the web. Please leave a comment if you would be interested in more issues in the future.',
     releaseDate: 'Dec 19, 2023',
-    pdf_file: '',
+    pdf_file: 'assets/zinespdf/v_9/a2kcityMagazine9_pages.pdf',
     pages: [
       '~../../assets/zinespdf/v_9/a2kcityMagazine9_pages_1.png',
       '~../../assets/zinespdf/v_9/a2kcityMagazine9_pages_2.png',
@@ -322,7 +322,7 @@ export const ZineListFull = [
     zineDescription:
       'Tenth issue of the A2K Magazine, a collection of comics by different creators around the web. Please leave a comment if you would be interested in more issues in the future.',
     releaseDate: 'Jun 23, 2024',
-    pdf_file: '',
+    pdf_file: 'assets/zinespdf/v_10/A2K Summer 2024 Edition_.pdf',
     pages: [
       '~../../assets/zinespdf/v_10/A2K Summer 2024 Edition__1.png',
       '~../../assets/zinespdf/v_10/A2K Summer 2024 Edition__2.png',
